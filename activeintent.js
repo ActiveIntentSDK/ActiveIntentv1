@@ -1,1 +1,1 @@
-var name = "This is latest version";
+var name = "You can't do it with github :D";
