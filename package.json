@@ -1,6 +1,6 @@
 {
   "name": "active-intent",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Make your enterprise website voice activated.",
   "main": "activeintent.js",
   "scripts": {
