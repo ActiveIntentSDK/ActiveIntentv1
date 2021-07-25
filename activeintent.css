@@ -1,17 +1,3 @@
-/* .microphone-icon{
-  width: 50px;
-} */
-/* .mini-microphone-icon{
-  
-} */
-
-/* #microphone,.mini-microphone{
-  padding: 0;
-  border: none;
-  background: none;
-  cursor: pointer;
-} */
-
 @keyframes cycle-colors {
   0% {
     border-color: hsl(0, 100%, 50%);
@@ -37,8 +23,8 @@
   }
 }
 
-.avatar_voice::before,
-.avatar_voice::after {
+.the_activeintent_avatar_voice::before,
+.the_activeintent_avatar_voice::after {
   animation: pulse 2s linear infinite;
   border: #0a8cc7 solid 8px;
   border-radius: 9999px;
@@ -54,11 +40,11 @@
   z-index: 1;
 }
 
-.avatar::after {
+.the_activeintent_avatar::after {
   animation-delay: 1s;
 }
 
-.loading:after {
+.the_activeintent_loading:after {
   overflow: hidden;
   display: inline-block;
   vertical-align: bottom;
@@ -80,7 +66,7 @@
   }
 }
 
-.voice_flex {
+.the_activeintent_voice_flex {
   background: #eaeef5;
   color: #515151;
   padding: 20px;
@@ -94,19 +80,19 @@
   width: 175px;
 }
 
-.top_60 {
+.the_activeintent_top_60 {
   top: -60px;
 }
 
-.voice_flex_top_0 {
+.the_activeintent_voice_flex_top_0 {
   top: 5px;
   height: 20px;
 }
 
-.right_svg_none {
+.the_activeintent_right_svg_none {
   display: none;
 }
 
-.display_none {
-  display: none;
+.the_activeintent_display_none{
+  display:none;
 }
